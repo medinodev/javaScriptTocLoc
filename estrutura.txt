@@ -1,0 +1,29 @@
+src/
+├── config/
+│   └── database.js           # Configuração do banco de dados
+├── controllers/              # Controladores para os endpoints
+│   ├── anfitriaoController.js
+│   ├── usuarioController.js
+│   ├── localEsportivoController.js
+│   └── reservaController.js
+├── entities/                 # Modelos das entidades
+│   ├── Anfitriao.js
+│   ├── Usuario.js
+│   ├── LocalEsportivo.js
+│   └── Reserva.js
+├── repositories/             # Lógica de acesso ao banco
+│   ├── anfitriaoRepository.js
+│   ├── usuarioRepository.js
+│   ├── localEsportivoRepository.js
+│   └── reservaRepository.js
+├── services/                 # Lógica de negócio
+│   ├── anfitriaoService.js
+│   ├── usuarioService.js
+│   ├── localEsportivoService.js
+│   └── reservaService.js
+├── routes/                   # Rotas expostas pela API
+│   ├── anfitriaoRoutes.js
+│   ├── usuarioRoutes.js
+│   ├── localEsportivoRoutes.js
+│   └── reservaRoutes.js
+└── app.js                    # Arquivo principal
